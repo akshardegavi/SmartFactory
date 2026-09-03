@@ -1,0 +1,80 @@
+.page-container{
+    margin-left:250px;
+    min-height:100vh;
+    background:#f4f8fc;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.production-card{
+    width:700px;
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.12);
+}
+
+.production-card h1{
+    text-align:center;
+    color:#2563eb;
+    margin-bottom:25px;
+}
+
+.production-card label{
+    font-weight:600;
+    display:block;
+    margin-top:18px;
+    margin-bottom:8px;
+}
+
+.production-card input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.production-card button{
+    width:100%;
+    margin-top:25px;
+    padding:14px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:17px;
+    cursor:pointer;
+}
+
+.production-card button:hover{
+    background:#1d4ed8;
+}
+
+.report{
+    margin-top:30px;
+    background:#f8fbff;
+    border-left:5px solid #2563eb;
+    padding:25px;
+    border-radius:12px;
+    text-align:left;
+}
+
+.report h2{
+    color:#2563eb;
+    margin-bottom:18px;
+    text-align:center;
+}
+
+.report p{
+    color:#333;
+    font-size:17px;
+    margin:12px 0;
+    line-height:1.6;
+}
+
+.report strong{
+    color:#111827;
+}
